@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>test</title>
-</head>
+<html>
 <body>
-    <h1>hello world</h1>
+
+<h2>JavaScript可以做什么?</h2>
+
+<p>JavaScript可以改变HTML属性值.</p>
+
+<p>在这种情况下，JavaScript 会更改图像的 src（源）属性的值。</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">开灯</button>
+
+<img alt="pic_bulboff.gif" id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">关灯</button>
+
 </body>
 </html>
