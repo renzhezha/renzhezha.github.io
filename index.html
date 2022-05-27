@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>页面标题</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<style>
+
+</style>
+</head>
 <body>
 
-<h2>JavaScript可以做什么?</h2>
+<div class="navbar">
+  <a href="#">ZYBlog</a>
+  <div class="right">
+    <a href="#" >HOME</a>
+    <a href="#" >ABOUT</a>
+    <a href="#" >TAGS</a>
+  </div>
+</div>
 
-<p>JavaScript可以改变HTML属性值.</p>
+<div class="container">
+    <div class="wrap" style="left: 0;">
+        <img class="cursoler-img" src="1.jpeg" alt="1.jpeg">
+        <img src="2.jpeg" alt="2.jpeg">
+        <img src="3.jpeg" alt="3.jpeg">
+        <img src="4.jpeg" alt="4.jpeg">
+        <img src="5.jpeg" alt="5.jpeg">
+    </div>
+    <div class="buttons">
+        <span class="on">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+    </div>
+    <a href="javascript:;" class="arrow arrow_left">&lt;</a>
+    <a href="javascript:;" class="arrow arrow_right">&gt;</a>
+</div>
 
-<p>在这种情况下，JavaScript 会更改图像的 src（源）属性的值。</p>
+<div class="row">
+  <div class="side">
+      <h2>关于我</h2>
+      <h5>我的照片:</h5>
+      <div class="fakeimg" style="height:200px;">这边插入图像</div>
+      <p>关于我的介绍..</p>
+      <h3>更多内容</h3>
+      <p>我的作品</p>
+      <div class="fakeimg" style="height:60px;">图片</div><br>
+      <div class="fakeimg" style="height:60px;">图片</div><br>
+      <div class="fakeimg" style="height:60px;">图片</div>
+  </div>
+  <div class="main">
+      <h2>标题</h2>
+      <h5>副标题</h5>
+      <div class="fakeimg" style="height:200px;">图像</div>
+      <p>一些文本..</p>
+      <p>对于致力于全球化的企业来说，21 世纪的
+        第二个十年充满更多不确定性和挑战。新冠疫情
+        直接冲击全球供应链，加之地缘政治复杂性提
+        升，世界范围内的全球化出现放缓，全球贸易和
+        对外投资都受到了不同程度的影响。</p>
+      <br>
+      <h2>标题</h2>
+      <h5>副标题</h5>
+      <div class="fakeimg" style="height:200px;">图像</div>
+      <p>一些文本..</p>
+      <p>对于致力于全球化的企业来说，21 世纪的
+        第二个十年充满更多不确定性和挑战。新冠疫情
+        直接冲击全球供应链，加之地缘政治复杂性提
+        升，世界范围内的全球化出现放缓，全球贸易和
+        对外投资都受到了不同程度的影响。</p>
+  </div>
+</div>
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">开灯</button>
+<div class="footer">
+  <h2>页脚</h2>
+</div>
 
-<img alt="pic_bulboff.gif" id="myImage" src="pic_bulboff.gif" style="width:100px">
-
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">关灯</button>
+<script src="./main.js"></script>
 
 </body>
 </html>
